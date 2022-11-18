@@ -17,7 +17,7 @@ Clone Mastodon's repository.
     git clone https://github.com/tootsuite/mastodon
     cd mastodon
 
-Review the settings in `docker-compose.yml`. Note that it is **not default** to store the postgresql database and redis databases in a persistent storage location. If you plan on running your instance in production, you **must** uncomment the [`volumes` directive](https://github.com/tootsuite/mastodon/blob/972f6bc861affd9bc40181492833108f905a04b6/docker-compose.yml#L7-L16) in `docker-compose.yml`.
+Review the settings in `docker-compose.yml`.
 
 ## Getting the Mastodon image
 
